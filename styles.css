@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #043CAA;
+    --seconday-color: #1BC768;
+}
+
+.backgroundImg {
+    background: url('./image/background.svg') no-repeat;
+    background-size: cover;
+}

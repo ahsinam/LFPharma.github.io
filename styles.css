@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Avenir', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -50,6 +51,7 @@ h1 {
 /* navigation CSS starts here  */
 nav {
     padding-top: 37px;
+    height: 79px;
 }
 
 .navMenu ul {
@@ -280,7 +282,7 @@ footer {
 }
 
 .searchButton button {
-    padding: 15.8px 25px;
+    padding: 16px 25px;
     border: none;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;

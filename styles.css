@@ -260,8 +260,6 @@ ul li img {
     background-color: var(--seconday-color);
 }
 
-
-
 /* Client Say CSS ends here  */
 
 /* Footer CSS starts here  */
@@ -307,7 +305,7 @@ footer {
 }
 
 .searchButton button {
-    padding: 16px 25px;
+    padding: 16.5px 25px;
     border: none;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;

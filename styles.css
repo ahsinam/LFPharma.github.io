@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir',
+        'Montserrat',
+        sans-serif;
     box-sizing: border-box;
 }
 
@@ -252,7 +254,6 @@ nav {
 footer {
     margin-top: 140px;
     background-color: var(--primary-color);
-    max-height: 550px;
     color: white;
 }
 
@@ -265,6 +266,16 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
 }
+
+.footerDesc p {
+    margin-top: 18px;
+    max-width: 400px;
+}
+
+.footerMail p {
+    margin-bottom: 10px;
+}
+
 
 .searchButton {
     height: 50px;

@@ -210,13 +210,24 @@ nav {
     color: var(--seconday-color);
 }
 
+.benefitDescription ul li {
+    margin: 20px 0px
+}
+
+ul li img {
+    margin-right: 12px;
+}
+
 /* KeyBenefit CSS ends here  */
 
 /* Client Say CSS starts here  */
+.wideContainer {
+    max-width: 1400px;
+}
+
 .clientWords {
     max-width: 382px;
     margin: 48px 40px 18px;
-    margin-right: 350px;
 }
 
 .clientWords h2 {
@@ -236,6 +247,7 @@ nav {
     margin: 18px 0 40px;
 }
 
+
 .clientWords .circle {
     background-color: #C4C4C4;
     height: 10px;
@@ -247,6 +259,8 @@ nav {
 .clientWords .focused {
     background-color: var(--seconday-color);
 }
+
+
 
 /* Client Say CSS ends here  */
 
